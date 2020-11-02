@@ -27,11 +27,7 @@ def won?(board)
     if position_1 == "X" && position_2 == "X" && position_3 == "X" || position_1 =="O" && position_2 == "O" && position_3 == "O"
      return win_combination
    else
-<<<<<<< HEAD
       false
-=======
-     false
->>>>>>> 78cc7a7238347b4284bea3f5069506fd2ff40a2a
     end
 end
   end
@@ -47,21 +43,11 @@ def draw?(board)
 end
 
 
-<<<<<<< HEAD
-
-def over?(board)
-!draw?(board)
-=======
 def over?(board)
  won?(board) || draw?(board)
->>>>>>> 78cc7a7238347b4284bea3f5069506fd2ff40a2a
 end
 
 def winner(board)
  winning_combo = won?(board)
-<<<<<<< HEAD
     board[winning_combo.first]
-=======
-    board[winning_combo]
->>>>>>> 78cc7a7238347b4284bea3f5069506fd2ff40a2a
 end
