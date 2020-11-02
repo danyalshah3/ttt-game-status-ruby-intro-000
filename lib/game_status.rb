@@ -30,6 +30,7 @@ def won?(board)
 else
    false
   end
+end
 
 def full?(board)
   board.all? do |box|
